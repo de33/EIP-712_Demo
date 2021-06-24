@@ -1,0 +1,23 @@
+{
+  "name": "eip712-signing-demo",
+  "version": "1.0.0",
+  "description": "This is a demonstration of EIP712 signing support via MetaMask's `eth_signTypedData_v3` API call. It includes copy-and-paste Solidity code that performs EIP712 hashing and `ecrecover`y on-chain.",
+  "main": "sign.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijiekoh/eip712-signing-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weijiekoh/eip712-signing-demo/issues"
+  },
+  "homepage": "https://github.com/weijiekoh/eip712-signing-demo#readme",
+  "dependencies": {
+    "@metamask/legacy-web3": "^2.0.0"
+  }
+}
